@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Youtube-clone></title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My YouTube Clone</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search videos...">
+            <button onclick="searchVideos()">Search</button>
+        </div>
+    </header>
+    <main>        
+        <div class="video-container">
+            <iframe id="videoPlayer" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-list">
+            <!-- Video Thumbnail 1 -->
+            <div class="video-thumbnail" onclick="playVideo('VIDEO_ID_1')">
+                <img src="life.png" alt="Video Title 1">
+                <p>Video Title 1</p>
+            </div>
+
+            <!-- Video Thumbnail 2 -->
+            <div class="video-thumbnail" onclick="playVideo('VIDEO_ID_2')">
+                <img src="secrets.png" alt="Video Title 2">
+                <p>Video Title 2</p>
+            </div>
+
+            <!-- Video Thumbnail 3 -->
+            <div class="video-thumbnail" onclick="playVideo('VIDEO_ID_3')">
+                <img src="lofi.png" alt="Video Title 3">
+                <p>Video Title 3</p>
+            </div>
+
+            <!-- Video Thumbnail 4 -->
+            <div class="video-thumbnail" onclick="playVideo('VIDEO_ID_4')">
+                <img src="AI.png" alt="Video Title 4">
+                <p>Video Title 4</p>
+            </div>
+
+            <!-- Video Thumbnail 5 -->
+            <div class="video-thumbnail" onclick="playVideo('VIDEO_ID_5')">
+                <img src="nature.png" alt="Video Title 5">
+                <p>Video Title 5</p>
+            </div>
+
+            <!-- Video Thumbnail 6 -->
+            <div class="video-thumbnail" onclick="playVideo('VIDEO_ID_6')">
+                <img src="thai.png" alt="Video Title 6">
+                <p>Video Title 6</p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My YouTube Clone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

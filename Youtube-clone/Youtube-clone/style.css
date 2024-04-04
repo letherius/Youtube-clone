@@ -1,0 +1,91 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818; /* Dark background color */
+    color: #ffffff; /* Text color */
+}
+
+header {
+    background-color: #282828; /* Darker header background */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Search bar styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #333; /* Dark background for input */
+    color: #fff; /* Text color */
+}
+
+.search-bar button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.video-container {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.video-list {
+    flex: 1;
+    background-color: #282828; /* Darker video list background */
+    border: 1px solid #444; /* Slightly lighter border */
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.video-thumbnail {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.video-thumbnail img {
+    width: 100px;
+    height: 60px;
+    margin-right: 1rem;
+    /* Replace with your thumbnail styling */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #282828; /* Darker footer background */
+    color: #aaa; /* Lighter footer text color */
+}
